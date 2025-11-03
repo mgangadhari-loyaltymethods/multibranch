@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Automatically checks out the current branch
-                git branch: "${env.BRANCH_NAME}", url: 'https://github.com/mouneeshgangadhari/multibranch.git'
+                git branch: "${env.BRANCH_NAME}", url: 'https://github.com/mgangadhari-loyaltymethods/multibranch.git'
             }
         }
 
